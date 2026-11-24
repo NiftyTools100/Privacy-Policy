@@ -1,138 +1,136 @@
-  <title>MiruPods Privacy Policy</title>
-  <style>
-    :root {
-      --bg: #0b1220;
-      --card: #121a2b;
-      --text: #e8eef8;
-      --muted: #9aa8bd;
-      --accent: #5eb1ff;
-      --line: rgba(255, 255, 255, 0.08);
-    }
-    * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
-      background: radial-gradient(1200px 600px at 50% -10%, #1a3a5c 0%, var(--bg) 55%);
-      color: var(--text);
-      line-height: 1.55;
-    }
-    main {
-      max-width: 720px;
-      margin: 0 auto;
-      padding: 48px 20px 80px;
-    }
-    h1 { font-size: 2rem; margin: 0 0 8px; letter-spacing: -0.02em; }
-    h2 {
-      font-size: 1.15rem;
-      margin: 2rem 0 0.75rem;
-      padding-top: 0.5rem;
-      border-top: 1px solid var(--line);
-    }
-    p, li { color: var(--text); }
-    .meta, .muted { color: var(--muted); }
-    a { color: var(--accent); }
-    ul { padding-left: 1.2rem; }
-    .card {
-      background: color-mix(in srgb, var(--card) 90%, black);
-      border: 1px solid var(--line);
-      border-radius: 16px;
-      padding: 16px 18px;
-      margin: 1.25rem 0;
-    }
-  </style>
-</head>
-<body>
-  <main>
-    <h1>Privacy Policy for MiruPods</h1>
-    <p class="meta">
-      Effective date: November 24, 2026<br>
-      App: MiruPods (<code>com.mirupods.app</code>)<br>
-      Platform: Android (Google Play)
-    </p>
+# Privacy Policy for MiruPods
 
-    <p>
-      This Privacy Policy describes how MiruPods (“we,” “us,” or “the 
-App”) handles information when you use the App.
-      MiruPods is designed to keep podcast audio and transcripts on your
- device. We do not require an account and we do not operate a MiruPods 
-user database.
-    </p>
+**Effective date:** November 24, 2026  
+**App:** MiruPods (`com.mirupods.app`)  
+**Platform:** Android (Google Play)
 
-    <div class="card">
-      <strong>Summary</strong>
-      <ul>
-        <li>No MiruPods account.</li>
-        <li>Audio and transcripts stay on your device; transcription runs on-device.</li>
-        <li>Network is used for feeds, artwork, optional imports, model downloads, AdMob, and Play Billing.</li>
-        <li>Ads and purchases are provided by Google under Google’s policies.</li>
-      </ul>
-    </div>
+This Privacy Policy describes how MiruPods (“we,” “us,” or “the App”) handles information when you use the App.
 
-    <h2>1. Information stored on your device</h2>
-    <p>The App stores data locally, including:</p>
-    <ul>
-      <li>Podcast subscriptions (RSS URLs and metadata)</li>
-      <li>Episode metadata, downloads, and playback position</li>
-      <li>Downloaded audio (when you download episodes)</li>
-      <li>Generated or imported transcripts and speaker labels</li>
-      <li>Playlists, bookmarks, and settings</li>
-      <li>Remove-ads purchase status (verified with Google Play)</li>
-      <li>On-device speech / VAD model files</li>
-    </ul>
-    <p class="muted">
-      Android backup may include limited preferences and database content per your device settings.
-      Large audio and model files are intended to stay off cloud backup.
-    </p>
+MiruPods is designed to keep podcast audio and transcripts on your device. We do not require an account and we do not operate a MiruPods user database.
 
-    <h2>2. Information we do not collect ourselves</h2>
-    <p>MiruPods does not create accounts on MiruPods servers, sell 
-personal information, run a separate MiruPods analytics backend, or send
- your podcast audio/transcripts to cloud speech-to-text APIs for 
-transcription.</p>
+---
 
-    <h2>3. Network activity and third parties</h2>
-    <p><strong>Podcast publishers / CDNs:</strong> RSS, artwork, and audio requests go to publisher or host servers under their policies.</p>
-    <p><strong>Optional imports:</strong> Reference transcript/script URLs (including PodScripts) are fetched from those sites under their policies.</p>
-    <p><strong>Model downloads:</strong> ASR/VAD models are downloaded to your device; episode audio is not uploaded for transcription.</p>
-    <p><strong>Google AdMob:</strong> Unless ads are removed via purchase, banners are served by AdMob. See
-      <a href="https://policies.google.com/privacy">Google Privacy Policy</a> and
-      <a href="https://policies.google.com/technologies/partner-sites">How Google uses information from apps</a>.
-    </p>
-    <p><strong>Google Play Billing:</strong> Optional Remove ads purchases are processed by Google Play.</p>
+## 1. Summary
 
-    <h2>4. Permissions</h2>
-    <p>Internet/network, notifications, and foreground services may be 
-used for downloads, playback, transcription work, ads, and billing.</p>
+- **No MiruPods account.** You do not sign up or log in with us.
+- **Audio and transcripts stay on your device.** Transcription runs on-device. We do not upload your podcast audio or transcripts to MiruPods servers (we do not operate such servers for that purpose).
+- **Network is used** for podcast feeds, artwork, optional reference-script imports, speech-model downloads, ads (Google AdMob), and in-app purchases (Google Play Billing).
+- **Ads and purchases** are provided by Google. Google may collect data under their own policies when those services run.
 
-    <h2>5. Children’s privacy</h2>
-    <p>MiruPods is not directed to children under 13 (or the equivalent 
-minimum age in your country). We do not knowingly collect personal 
-information from children.</p>
+---
 
-    <h2>6. Retention and deletion</h2>
-    <p>Uninstalling the App or clearing app storage removes local 
-library data on that device (subject to any Android backups). Purchase 
-records are retained by Google Play under Google’s policies; entitlement
- can be restored via Play Billing.</p>
+## 2. Information stored on your device
 
-    <h2>7. Changes</h2>
-    <p>We may update this policy when practices change. The effective date will be revised accordingly.</p>
+The App stores data locally on your phone or tablet, including:
 
-    <h2>8. Contact</h2>
-    <p>
-      Contact us via the MiruPods Google Play listing developer email, or set your address here before hosting:
-      <strong>[YOUR_PRIVACY_EMAIL]</strong>
-    </p>
+- Podcast subscriptions (RSS feed URLs and metadata)
+- Episode metadata, download status, and playback position
+- Downloaded episode audio files (when you choose to download)
+- Generated or imported transcripts and related labels (e.g. speaker names)
+- Playlists, bookmarks, and app settings (e.g. playback speed, accent color, transcript sync offset)
+- Whether you purchased “Remove ads” (stored locally and verified with Google Play)
+- Downloaded speech-recognition / VAD model files
 
-    <h2>9. Your choices</h2>
-    <ul>
-      <li>Use offline after downloads/models are cached</li>
-      <li>Skip optional URL imports</li>
-      <li>Purchase Remove ads to hide banners</li>
-      <li>Adjust Google ad personalization in device settings</li>
-      <li>Uninstall or clear app data to remove local content</li>
-    </ul>
-  </main>
+This information remains on your device unless you delete it, clear app data, uninstall the App, or use Android backup features that copy app data according to your device and Google account settings.
 
+**Android backup:** Limited app preferences and database content may be included in Android’s backup/restore features. Large audio and model files are intended to stay off cloud backup.
 
-</body></html>
+---
+
+## 3. Information we do not collect ourselves
+
+MiruPods does **not**:
+
+- Create user accounts or profiles on MiruPods servers
+- Sell your personal information
+- Run a separate MiruPods analytics or crash-reporting backend
+- Send your podcast audio or transcripts to cloud speech-to-text providers (e.g. we do not use remote STT APIs for transcription)
+
+---
+
+## 4. Network activity and third parties
+
+When you use MiruPods, your device may communicate with third parties:
+
+### 4.1 Podcast publishers and CDNs
+Fetching RSS feeds, episode pages, artwork, and audio streams contacts the servers operated by podcast publishers or their hosts. What those parties receive (e.g. IP address, user-agent, requested URLs) is governed by **their** privacy policies—not ours.
+
+### 4.2 Optional reference / script imports
+If you import a reference transcript or script (for example from a URL or PodScripts), your device requests that content from the relevant site. Those sites process the request under their own policies.
+
+### 4.3 Speech model downloads
+Downloading on-device ASR / VAD models requires a network connection to the model host (e.g. release downloads). Only the model package is downloaded; your episode audio is not uploaded for transcription.
+
+### 4.4 Google AdMob (advertising)
+Unless you have purchased Remove ads (and ads are disabled in the App), MiruPods shows banner ads via **Google AdMob**. Google may collect device and advertising identifiers and other data to serve and measure ads, subject to:
+
+- [Google Privacy Policy](https://policies.google.com/privacy)
+- [How Google uses information from apps that use our services](https://policies.google.com/technologies/partner-sites)
+
+You can limit ad personalization in your device settings (e.g. Google settings → Ads) where available.
+
+### 4.5 Google Play Billing (Remove ads purchase)
+Optional one-time purchases are processed by **Google Play**. Payment details are handled by Google, not by MiruPods. See the [Google Play Terms of Service](https://play.google.com/about/play-terms/) and Google’s privacy policy.
+
+### 4.6 Google Play / Android platform
+Installing and updating the App, license checks, and related Play services follow Google’s policies for Google Play and Android.
+
+---
+
+## 5. Permissions
+
+Depending on Android version and features you use, the App may need permissions such as:
+
+- **Internet / network state** — feeds, downloads, ads, billing, model downloads  
+- **Notifications** — playback and download/transcription progress  
+- **Foreground services** — background playback and long-running work  
+
+We use permissions only to provide these features.
+
+---
+
+## 6. Children’s privacy
+
+MiruPods is not directed to children under 13 (or the equivalent minimum age in your country). We do not knowingly collect personal information from children. If you believe a child has provided personal information through the App in a way that concerns you, contact us using the method below and we will help you delete local app data guidance as appropriate.
+
+---
+
+## 7. Data retention and deletion
+
+Because MiruPods keeps your library on-device:
+
+- Uninstalling the App or clearing MiruPods storage removes local library data on that device (subject to Android backups you may have enabled).
+- Revoking ad consent / changing ad settings is managed through your Google/device controls.
+- Purchase records for Remove ads are retained by Google Play according to Google’s policies; the App can restore entitlement via Play Billing when you reinstall.
+
+---
+
+## 8. International processing
+
+Third-party services you interact with (publishers, Google, model hosts) may process data in other countries. Their terms and privacy policies apply to that processing.
+
+---
+
+## 9. Changes to this policy
+
+We may update this Privacy Policy when the App’s practices change. The “Effective date” above will be revised. Continued use of the App after an update means you accept the revised policy.
+
+---
+
+## 10. Contact
+
+For privacy questions about MiruPods, contact us through the **Google Play store listing** for MiruPods (developer contact email), or replace this line with your preferred address before publishing:
+
+**Email:** `NiftyTools@proton.me`
+
+---
+
+## 11. Your choices
+
+- Use the App offline after content and models are downloaded  
+- Skip optional URL/script imports  
+- Purchase **Remove ads** to hide AdMob banners  
+- Adjust Google ad personalization settings on your device  
+- Uninstall the App or clear app data to remove local library content  
+
+Thank you for using MiruPods.
